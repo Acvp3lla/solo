@@ -1,0 +1,21 @@
+input{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 14px;
+    box-sizing: border-box;
+    background: transparent;
+    background-image: url('../../solo-files/search-icon.png');
+    background-position: 5px 5px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 20px;
+    color: white;
+    font-family: Helvetica;
+    border-radius: 2px;
+    border: 2px solid #367588;
+}
+
+/* input:hover{
+    
+} */
