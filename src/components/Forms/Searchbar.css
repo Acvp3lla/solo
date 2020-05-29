@@ -12,8 +12,14 @@ input{
     margin-top: 20px;
     color: white;
     font-family: Helvetica;
+    font-size: 20px;
     border-radius: 2px;
-    border: 2px solid #367588;
+    border: 2px solid #f9f9f9;
+}
+
+::placeholder{
+    color: white;
+    opacity: .7;
 }
 
 /* input:hover{
