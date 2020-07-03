@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0cd01124.chunk.css",
+    "main.js": "/static/js/main.38944fee.chunk.js",
+    "main.js.map": "/static/js/main.38944fee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a471abdf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a471abdf.js.map",
+    "static/js/2.86af5efe.chunk.js": "/static/js/2.86af5efe.chunk.js",
+    "static/js/2.86af5efe.chunk.js.map": "/static/js/2.86af5efe.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f9be1f370de6831ee0b608495bd8f824.js": "/precache-manifest.f9be1f370de6831ee0b608495bd8f824.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0cd01124.chunk.css.map": "/static/css/main.0cd01124.chunk.css.map",
+    "static/js/2.86af5efe.chunk.js.LICENSE.txt": "/static/js/2.86af5efe.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/photo4.2cb2b9c6.jpg",
+    "static/media/Searchbar.css": "/static/media/search-icon.d97cb3d0.png",
+    "static/media/solo-logo.png": "/static/media/solo-logo.4c1786ae.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a471abdf.js",
+    "static/js/2.86af5efe.chunk.js",
+    "static/css/main.0cd01124.chunk.css",
+    "static/js/main.38944fee.chunk.js"
+  ]
+}
