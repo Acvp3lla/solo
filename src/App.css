@@ -1,46 +1,43 @@
-/* *{
+*{
   border: 0;
   padding: 0;
   margin: 0;
-} */
+}
+
 .App {
   text-align: center;
 }
-
-
 
 .lorem{
   font-size: 30px;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quote{
+  font-size: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+.footer{
+  font-size: 15px;
+}
 
 .container{
-  max-width: auto;
-  margin-top: 0;
-  padding-top: 0;
+  width: 100%;
   background: #1261A0;
   font-size: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .parallax{
   background: url('./solo-files/photo2.jpg') no-repeat center;
   background-size: auto;
   background-attachment: fixed;
-  height: 600px;
+  height: 800px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -55,7 +52,7 @@
   background: url('./solo-files/photo3.png') no-repeat center;
   background-size: auto;
   background-attachment: fixed;
-  height: 600px;
+  height: 800px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -70,7 +67,7 @@
   background: url('./solo-files/photo4.jpg') no-repeat center;
   background-size: auto;
   background-attachment: fixed;
-  height: 600px;
+  height: 800px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -85,6 +82,7 @@
   background-color: #282c34;
   background-image: url('./solo-files/photo1.jpg');
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,15 +90,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 0;
-}
-
-.arrow{
-  width: 200px;
-  height: 200px;
-}
-
-.App-header div{
- padding: 200px; 
 }
 
 .spacer{
@@ -111,18 +100,86 @@
   color: #61dafb;
 }
 
-.splash{
-  width: 1000px;
-  height: 500px;
+/*Media Queries*/
+
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  .quote{
+    font-size: 20px;
+  }
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  .quote{
+    font-size: 70px;
+  }
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+  .quote{
+    font-size: 20px;
+  }
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+  .quote{
+    font-size: 20px;
+  }
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+  .quote{
+    font-size: 20px;
+  }
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+  .quote{
+    font-size: 20px;
+  }
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .quote{
+    font-size: 20px;
+  }
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+  .quote{
+    font-size: 70px;
+  }
 }
 
 
 
-@keyframes App-logo-spin {
+/* Ignore for now */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

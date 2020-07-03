@@ -16,5 +16,236 @@
     font-size: 3rem;
     font-weight: bold;
     font-style: italic;
+    padding-top: 105px;
+    padding-bottom: 3%;
 }
 
+
+/*Media Queries*/
+@media screen and (max-device-width: 320px){
+  .splash{
+    width: 70%;
+    height: 70%;
+  }
+
+  .arrow{
+    width: 30%;
+    height: 30%;
+  }
+
+  p{
+    font-size: 50%;
+  }
+
+  .banner{
+    padding-bottom: 30%;
+  }
+}
+
+@media screen and (max-device-width: 375px){
+  .splash{
+    width: 70%;
+    height: 70%;
+  }
+
+  .arrow{
+    width: 30%;
+    height: 30%;
+  }
+
+  p{
+    font-size: 50%;
+  }
+
+  .banner{
+    padding-bottom: 30%;
+  }
+}
+
+@media screen and (max-device-width: 375px) and (orientation: portrait){
+  .splash{
+    width: 80%;
+    height: 80%;
+  }
+
+  .arrow{
+    width: 30%;
+    height: 30%;
+  }
+
+  p{
+    font-size: 60%;
+  }
+
+  .banner{
+    padding-top: 40%;
+    padding-bottom: 45%;
+  }
+}
+
+@media screen and (max-device-width: 411px){
+  .splash{
+    width: 70%;
+    height: 70%;
+  }
+
+  .arrow{
+    width: 30%;
+    height: 30%;
+  }
+
+  p{
+    font-size: 50%;
+  }
+
+  .banner{
+    padding-bottom: 42%;
+  }
+}
+
+@media screen and (max-device-width: 568px){
+  .splash{
+    width: 50%;
+    height: 50%;
+  }
+
+  .arrow{
+    width: 10%;
+    height: 10%;
+  }
+
+  p{
+    font-size: 25%;
+  }
+
+  .banner{
+    padding-top: 10%;
+    padding-bottom: 0%;
+  }
+}
+
+@media screen and (max-device-width: 667px){
+  .splash{
+    width: 50%;
+    height: 50%;
+  }
+
+  .arrow{
+    width: 10%;
+    height: 3%;
+  }
+
+  p{
+    font-size: 50%;
+  }
+
+  .banner{
+    padding-bottom: 0%;
+    padding-top: 9%;
+  }
+}
+
+@media screen and (max-device-width: 768px){
+  .splash{
+    width: 70%;
+    height: 70%;
+  }
+
+  .arrow{
+    width: 20%;
+    height: 20%;
+  }
+
+  p{
+    font-size: 80%;
+  }
+
+  .banner{
+    padding-bottom: 15%;
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-device-width: 812px){
+  .splash{
+    width: 50%;
+    height: 50%;
+  }
+
+  .arrow{
+    width: 8%;
+    height: 8%;
+  }
+
+  p{
+    font-size: 50%;
+  }
+
+  .banner{
+    padding-bottom: 0%;
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-device-width: 823px){
+  .splash{
+    width: 50%;
+    height: 50%;
+  }
+
+  .arrow{
+    width: 10%;
+    height: 3%;
+  }
+
+  p{
+    font-size: 50%;
+  }
+
+  .banner{
+    padding-bottom: 0%;
+    padding-top: 6%;
+  }
+}
+
+@media screen and (max-device-width: 1024px){
+  .splash{
+    width: 80%;
+    height: 80%;
+  }
+
+  .arrow{
+    width: 20%;
+    height: 20%;
+  }
+
+  p{
+    font-size: 80%;
+  }
+
+  .banner{
+    padding-bottom: 0%;
+    padding-top: 6%;
+  }
+}
+
+@media screen and (max-device-width: 1024px) and (orientation: portrait){
+  .splash{
+    width: 80%;
+    height: 80%;
+  }
+
+  .arrow{
+    width: 20%;
+    height: 20%;
+  }
+
+  p{
+    font-size: 80%;
+  }
+
+  .banner{
+    padding-bottom: 15%;
+    padding-top: 20%;
+  }
+}

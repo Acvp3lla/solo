@@ -31,9 +31,10 @@ const Toolbar = props =>(
 
       <div className="spacer"></div>
       
-      <div>
+      <div className='searchbar'>
         <Searchbar/>
       </div>
+
     </nav>
   </header>
 );

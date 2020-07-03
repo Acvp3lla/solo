@@ -4,7 +4,9 @@ import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/BackDrop/Backdrop';
 import Banner from './components/Body/Banner/Banner';
+//import Lorem from './components/Body/Elements/Lorem';
 //import photo from './solo-files/photo1.jpg';
+//import arrow from './solo-files/arrow.png';
 
 
 class App extends React.Component{
@@ -25,7 +27,6 @@ class App extends React.Component{
   }
   ///////////////////////////////////////////////////////
   
-
   render(){
 
     let backdrop;
@@ -44,46 +45,24 @@ class App extends React.Component{
         {/*Nav Bar*/}
   
         <header className="App-header">
-
-          <Banner/> 
+          <div className="banner">
+          <Banner/>
+          </div> 
 
           <div className="container">
-            <div className='parallax'>
-            
+          
+            {/* <Lorem className='lo'/> */}
+            <h1 className='quote'>What are you passionate about?</h1>
+            <div className='parallax'></div>
+            {/* <Lorem/> */}
+            <h1 className='quote'>What are your goals?</h1>
+            <div className='parallax2'></div>
+            {/* <Lorem/> */}
+            <h1 className='quote'>With dedication they can all be achieved.</h1>           
+            <div className='parallax3'></div>
+            <div className='footer'>
+              <h1>Designed by: ACV Technologies ©</h1>
             </div>
-
-            
-
-            <p className='lorem'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus 
-              error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
-              quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            </p>
-
-            <div className='parallax2'>
-              
-            </div>
-
-            <p className='lorem'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus 
-              error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
-              quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            </p>
-
-            <div className='parallax3'>
-              
-            </div>
-
           </div>
 
         </header>

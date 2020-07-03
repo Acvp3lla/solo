@@ -21,6 +21,11 @@
     margin-left: 0rem;
 }
 
+.logo{
+    width: 100px;
+    height: 50px;
+}
+
 .toolbar__logo a{
     color: white;
     font-size: 1.5rem;
@@ -51,6 +56,10 @@
     flex: 0.15;
 }
 
+.searchbar{
+    align-items: center;
+}
+
 .toolbar__navigation-items a:hover,
 .toolbar__navigation-items a:active {
     color: #367588;
@@ -72,7 +81,87 @@
     }
 }
 
-.logo{
-    width: 100px;
-    height: 50px;
+/*Toolbar Orientation*/
+
+@media (max-width: 320px){
+    .logo{
+        display: none;
+    }
+
+    .toolbar{
+        width: 96%;
+    }
+}
+
+@media (max-width: 360px){
+    .logo{
+        display: none;
+    }
+
+    .toolbar{
+        width: 96%;
+    }
+}
+
+@media (max-width: 375px){
+    .logo{
+        display: none;
+    }
+
+    .toolbar{
+        width: 96%;
+    }
+}
+
+@media (max-width: 414px){
+    .logo{
+        display: none;
+    }
+
+    .toolbar{
+        width: 100%;
+    }
+}
+
+@media (min-width: 411px){
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+
+    .toolbar{
+        width: 97%;
+    }
+}
+
+@media (min-width: 640px){
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+
+    .toolbar{
+        width: 100%;
+    }
+}
+
+@media (min-width: 730px){
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+
+    .toolbar{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .logo{
+        display: none;
+    }
+
+    .toolbar{
+        width: 100%;
+    }
 }
